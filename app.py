@@ -20,7 +20,7 @@ class HouseData(BaseModel):
     Population: float
     AveOccup: float
     Latitude: float
-    longitude: float
+    Longitude: float
 
 # Home route
 @app.get("/")
