@@ -1,5 +1,5 @@
 import streamlit as st
-import requests
+import requestss
 
 # Fast API endpint URL
 API_URL = "http://127.0.0.1:8000/predict_api"
