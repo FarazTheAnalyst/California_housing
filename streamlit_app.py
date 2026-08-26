@@ -58,3 +58,4 @@ if st.button("Predict House Price"):
                 f"Could not connect to FastAPI. "
                 f"Make sure the FastAPI server is running. Error: {e}"
         )
+
