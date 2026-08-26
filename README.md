@@ -7,11 +7,5 @@ sdk: docker
 app_port: 7860
 ---
 
-# California_housing Median house value prediction
-end to end linear regression project using docker github actions and cloud deployement
-
-# create new environment
-conda create -p ./venv python=3.10 -y
-
 
 
