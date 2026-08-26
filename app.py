@@ -27,7 +27,7 @@ class HouseData(BaseModel):
 def home():
     return {"message": "Welcome to the California Housing Price Prediction API!"}
 
-@app.post("/predict")
+@app.post("/predict_api")
 def predict_api(data: HouseData):
     # Convert input data to DataFrame
     input_data = pd.DataFrame([data.dict()])
