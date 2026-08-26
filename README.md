@@ -2,7 +2,7 @@
 end to end linear regression project using docker github actions and cloud deployement
 
 # create new environment
-conda activate -p python==3.10 -y
+conda create -p ./venv python=3.10 -y
 
 ---
 title: California Housing Prediction
